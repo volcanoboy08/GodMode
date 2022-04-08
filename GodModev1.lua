@@ -1,6 +1,3 @@
-if not syn then
-game.Players.LocalPlayer:Kick("Syn X only!!")
-else
 if not isfile("Thefunnysong.mp3") then
 writefile("Thefunnysong.mp3", syn.request({Url = "https://cdn.discordapp.com/attachments/762864055370514432/961793990582222868/Thefunnysong.mp3", Method = "GET"}).Body)
 end
@@ -23,4 +20,3 @@ video.Video = funny
 video.Playing = true
 video.Looped = true
 video.Volume = 0
-end
