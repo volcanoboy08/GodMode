@@ -2,7 +2,7 @@ if not isfile("Thefunnysong.mp3") then
 writefile("Thefunnysong.mp3", syn.request({Url = "https://cdn.discordapp.com/attachments/762864055370514432/961793990582222868/Thefunnysong.mp3", Method = "GET"}).Body)
 end
 if not isfile("RobloxArsenalx4.webm") then
-writefile("RobloxArsenalx4.webm", syn.request({Url = "https://cdn.discordapp.com/attachments/762864055370514432/961793939327836230/Roblox_Arsenalx4.webm", Method = "GET"}).Body)
+writefile("RobloxArsenalx4.webm", syn.request({Url = "ROlbox Arsenal secss", Method = "GET"}).Body)
 end
 local music = getsynasset("Thefunnysong.mp3")
 local funny = getsynasset("RobloxArsenalx4.webm")
